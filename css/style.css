@@ -6,3 +6,8 @@
 .container{
     text-align: center;
 }
+#services{
+    height: 50vh;
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-size: cover;
+}
