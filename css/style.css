@@ -1,0 +1,5 @@
+.landing-page{
+    height: 100vh;
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+}
