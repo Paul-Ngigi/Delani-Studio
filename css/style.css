@@ -1,15 +1,37 @@
-.landing-page{
-    height: 100vh;
-    background-image: url("../assets/backgrounds/h_img.jpg");
-    background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     text-align: center;
 }
-#services{
-    height: 50vh;
-    background-image: url("../assets/backgrounds/s_image.jpg");
+.landing-page{
+    background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
+    height: 100vh;
+}
+.intro h1,p{
+    line-height: 80px;
+}
+.intro img{
+    margin-top: 15%;
+}
+.intro h1{
+    font-size: 49px;
+    font-weight: 600;
+    margin-top: 6%;
+}
+.mouse-click{
+    margin-top: 13%;
+}
+#services{
+    background-image: url("../assets/backgrounds/s_image.jpg");
+}
+#contact-us{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+}
+#portfolio img{
+    max-width: 100%;
 }
 .design-hidden{
     display: none;
