@@ -10,7 +10,7 @@
     background-size: cover;
     height: 100vh;
 }
-.intro h1,p{
+.intro h1{
     line-height: 80px;
 }
 .intro img{
@@ -20,6 +20,11 @@
     font-size: 49px;
     font-weight: 600;
     margin-top: 6%;
+}
+.intro h6{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 2px;
 }
 .mouse-click{
     margin-top: 13%;
