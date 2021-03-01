@@ -51,9 +51,6 @@
     background-color: transparent;
     color: white;
 }
-#contact-us input[type=text]:focus{
-    border: white;
-}
 #contact-us ::placeholder{
     color: white;
 }
